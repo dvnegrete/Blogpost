@@ -1,5 +1,33 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+main {
     text-align: center;
     color: blue;
+    height: auto;
+}
+
+footer {
+   margin-top: auto;
+    height: 3rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
 }
