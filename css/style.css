@@ -5,13 +5,25 @@ body {
     flex-flow: column;
 }
 
-main {
+header {
+    background: linear-gradient(white, gray);
     text-align: center;
     color: blue;
     height: auto;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    color: gold;
+    font-size: 2rem;
+    background-color: grey;
+}
+
 footer {
+    background: linear-gradient(grey,white);
    margin-top: auto;
     height: 3rem;
 }
