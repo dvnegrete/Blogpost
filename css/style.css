@@ -10,24 +10,3 @@ header {
     color: blue;
     height: auto;
 }
-
-footer {
-   margin-top: auto;
-    height: 3rem;
-}
-
-footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: green;
-}
