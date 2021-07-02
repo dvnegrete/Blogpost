@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100vh;
@@ -6,7 +12,8 @@ body {
 }
 
 header {
-    background: linear-gradient(white, gray);
+    padding-top: 1rem;
+    background-color: #6D6027;
     text-align: center;
     color: blue;
     height: auto;
@@ -19,12 +26,12 @@ main {
     height: inherit;
     color: gold;
     font-size: 2rem;
-    background-color: grey;
+    background: linear-gradient(#6D6027,#D3CBB8);
 }
 
 footer {
-    background: linear-gradient(grey,white);
-   margin-top: auto;
+    background-color: #D3CBB8;
+    margin-top: auto;
     height: 3rem;
 }
 
