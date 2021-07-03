@@ -27,6 +27,7 @@ header h4 {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: inherit;
@@ -35,7 +36,18 @@ main {
     background: linear-gradient(#D3CBB8, #6D6027);
 }
 
-main > div {
+.cabecera {
+    display: inherit;
+    flex-direction: column;
+    height: 35%;
+    width: 60vw;
+    border: green 1px solid;
+    border-bottom: none;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.contenido {
     border: green 1px solid;
     width: 70vw;
     height: 50%;
