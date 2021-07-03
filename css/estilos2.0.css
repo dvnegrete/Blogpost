@@ -1,3 +1,10 @@
+:root {
+    --colorFondo1: #E6DADA;
+    --colorFondo2: #274046;
+    --colorContraste: #480032;
+    --textocolor: #F2F4C3;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +20,9 @@ body {
 
 header {
     padding-top: 1rem;
-    background-color: #D3CBB8;
+    background-color: var(--colorFondo1);
     text-align: center;
-    color: blue;
+    color: var(--colorContraste);
     height: auto;
     font-size: 2rem;
 }
@@ -31,9 +38,9 @@ main {
     justify-content: center;
     align-items: center;
     height: inherit;
-    color: green;
+    color: var(--colorContraste);
     font-size: 2rem;
-    background: linear-gradient(#D3CBB8, #6D6027);
+    background: linear-gradient(var(--colorFondo1), var(--colorFondo2));
 }
 
 .cabecera {
@@ -41,10 +48,11 @@ main {
     flex-direction: column;
     height: 20%;
     width: 60vw;
-    border: green 1px solid;
+    border: var(--colorContraste) 2px solid;
     border-top: none;
     justify-content: inherit;
     align-items: inherit;
+    border-radius: 15px;
 }
 
 .submenu {
@@ -58,16 +66,17 @@ main {
 }
 
 .contenido {
-    border: green 1px solid;
+    border: var(--colorContraste) 2px solid;
     width: 70vw;
     height: 50%;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
+    border-radius: 15px;
 }
 
 footer {
-    background-color: #6D6027;
+    background-color: var(--colorFondo2);
     margin-top: auto;
     height: 3rem;
 }
@@ -79,11 +88,11 @@ footer ul {
 }
 
 a {
-    color: blue;
+    color: var(--textocolor);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: green;
+    color: var(--colorContraste);
 }
