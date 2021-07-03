@@ -39,12 +39,22 @@ main {
 .cabecera {
     display: inherit;
     flex-direction: column;
-    height: 35%;
+    height: 20%;
     width: 60vw;
     border: green 1px solid;
-    border-bottom: none;
+    border-top: none;
     justify-content: inherit;
     align-items: inherit;
+}
+
+.submenu {
+    list-style: none;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.submenu li {
+    margin-right: 2.5rem;
 }
 
 .contenido {
